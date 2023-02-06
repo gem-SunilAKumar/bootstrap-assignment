@@ -275,6 +275,7 @@ body {
     padding: .6% 2%;
 }
 
+
 /* section 2 */
 .snap-share{
     border:2px solid red;
@@ -290,32 +291,30 @@ body {
     padding-left:4% ;
 }
 
-.snap-share .container div{
-    border:2px solid red;
+.snap-share .container {
+    padding-top: 2%;
+    padding-left: 7%;
 }
 
-.snap-share #container {
-    position: relative;
-    width: 90%;
-    height: 60%;
-    background: green;
-    margin-left:4%;
-  }
-  .snap-share #container div {
-    position: absolute;
-    width: 40%;
-    height: 40%;
-    background: red;
-  }
-  .snap-share .top {
-    top: 0;
-  }
-  .snap-share .right {
-    right: 0;
-  }
-  .snap-share .bottom {
-    bottom: 0;
-  }
-  .snap-share .left {
-    left: 0;
-  }
+.red{
+    /* border:2px solid red; */
+    margin:2% 2%;
+}
+
+.fnt-big{
+    font-size: 1.5rem;
+}
+
+.snap-share .container .row .padd h4{
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+.learn-btn{
+    border:2px solid rgb(18, 203, 255);
+    background-color: white;
+    border-radius: 5px;
+    padding:1% 2%;
+    color:rgb(18, 203, 255);
+}
