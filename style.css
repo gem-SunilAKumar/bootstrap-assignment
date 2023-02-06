@@ -278,7 +278,7 @@ body {
 
 /* section 2 */
 .snap-share{
-    border:2px solid red;
+    /* border:2px solid red; */
     height:100vh;
     width:100%;
 }
@@ -298,7 +298,7 @@ body {
 
 .red{
     /* border:2px solid red; */
-    margin:2% 2%;
+    margin:1% 2%;
 }
 
 .fnt-big{
@@ -318,3 +318,32 @@ body {
     padding:1% 2%;
     color:rgb(18, 203, 255);
 }
+.learn-btn:hover{
+color:white;
+background-color: rgb(18, 203, 255);
+}
+
+/* section 3 */
+#tree-trial{
+    border:2px solid red;
+    height:100vh;
+    width:100%;
+}
+
+#tree-trial h2{
+
+}
+
+    .grey-box{
+        /* border:2px solid grey; */
+        border-radius: 6px;
+        padding: 2% -3%;
+        margin:4% -4%;
+    }
+
+.fnt{
+    font-size: 5rem;
+    margin-bottom: 2%;
+}
+
+/* section 4 */
