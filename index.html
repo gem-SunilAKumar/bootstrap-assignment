@@ -29,15 +29,15 @@
 
         <!-- content -->
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 ">
                 <form class="white-col">
                     <div class="text-center">
                         <h3>Student Registration Form</h3>
                     </div>
 
-                    <div class="mb-3 text-center  ">
+                    <div class="mb-3 text-center ">
                         <label for="name" class="form-label ">Name</label>
-                        <input type="text" id="name" class="form-control  ">
+                        <input type="text" id="name" class="form-control ">
                     </div>
 
                     <div class="text-center mb-3">
@@ -112,7 +112,7 @@
                     </div>
 
                     <div>
-                        <div class="text-center ">
+                        <div class="text-center pb-3">
                             <button type="submit" class="btn btn-primary me-sm-4 me-md-4">Submit</button>
                             <button type="reset" class="btn btn-primary">Reset</button>
                         </div>
@@ -120,48 +120,51 @@
                     </div>
             </div>
 
-            <div class="col-6 text-center pad-bott">
-                <table class="table  white-col">
-                    <thead class="col-sm-6 col-md-6">
-                        <tr >
-                            <th>Firstname</th>
-                            <th>Lastname</th>
-                            <th>Email</th>
-                        </tr>
+            <div class="col-6 text-center pad-bott table-responsive">
+                <table class="table white-col">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">Email</th>
+                      </tr>
                     </thead>
-                    <tbody class="col-sm-6 col-md-6">
-                        <tr>
-                            <td>Sunil</td>
-                            <td>Kumar</td>
-                            <td>Sunil@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>Sahil</td>
-                            <td>Kumar</td>
-                            <td>Kumar@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>Sanjay</td>
-                            <td>Kumar</td>
-                            <td>Sjaa@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>Sangeeta</td>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td >Sunil</td>
+                        <td >Kumar</td>
+                        <td >Sunil@example.com</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td >Sahil</td>
+                            <td >Kumar</td>
+                            <td >Kumar@example.com</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td >Sanjay</td>
+                            <td >Kumar</td>
+                            <td >Sjaa@example.com</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Sangeeta</td>
                             <td>Ji</td>
                             <td>sang@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>Shiv</td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Shiv</td>
                             <td>Chander</td>
                             <td>john@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>Jane</td>
-                            <td>Doe</td>
-                            <td>jane@example.com</td>
-                        </tr>
+                      </tr>
                     </tbody>
-                </table>
+                  </table>
             </div>
         </div>
 
