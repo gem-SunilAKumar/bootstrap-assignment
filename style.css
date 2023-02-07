@@ -281,6 +281,8 @@ body {
     /* border:2px solid red; */
     height:100vh;
     width:100%;
+    overflow: hidden;
+
 }
 
 .snap-share h2{
@@ -328,6 +330,7 @@ background-color: rgb(18, 203, 255);
     /* border:2px solid red; */
     height:100vh;
     width:100%;
+    overflow: hidden;
 }
 
 #tree-trial h2{
@@ -347,3 +350,61 @@ background-color: rgb(18, 203, 255);
 }
 
 /* section 4 */
+#profile{
+    height: 100vh;
+    width:100vw;
+    /* border: 2px solid red; */
+    background-color: #f2f2f4;
+}
+
+.side-spc{
+    border: 2px solid transparent;
+    background-color: #ffffff;
+    height:30rem;
+    width:100vw;
+    margin:24px -190px;
+    /* border-radius: 30px; */
+}
+
+.how-section1{
+    margin-top:-17%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 60%;
+    height: 300px;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.back{
+    width:90vh;
+    height:40rem;
+    background-color: white;
+}
+.size{
+    height:300px;
+}
+
+.badge-pill{
+    background-color: #ac04db;
+}
